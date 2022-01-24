@@ -84,7 +84,6 @@ export default {
     const products = ref(null);
     const filteredProducts = computed(() => {
       let arr = products.value;
-      console.log(arr);
       if (material.value) {
         arr = arr.filter((item) => item.material === +material.value);
       }
