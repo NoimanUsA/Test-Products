@@ -1,24 +1,9 @@
-# products
+## Установка
 
-## Project setup
-```
-npm install
-```
+1. Склонировать репозиторий
+2. Установить все пакеты - `npm install`
+3. Запуск проекта - `npm run dev`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Link
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Link on GitHub Pages](https://noimanusa.github.io/Test-Products/)

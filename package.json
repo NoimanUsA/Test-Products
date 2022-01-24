@@ -1,11 +1,15 @@
 {
-  "name": "products",
-  "version": "0.1.0",
+  "name": "test-products",
+  "version": "0.0.1",
+  "description": "Тестовое задание",
+  "productName": "test-products",
+  "author": "Noiman",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
