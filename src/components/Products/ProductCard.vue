@@ -1,6 +1,8 @@
 <template>
   <div class="product-card">
-    <div class="product-card__discount"></div>
+    <div class="product-card__discount" v-if="product.price.old_price">
+      Скидка
+    </div>
     <router-link to="/" class="product-card__image">
       <img :src="require(`@/assets/${product.image.url}`)" alt="" />
     </router-link>
@@ -77,6 +79,7 @@ export default {
 .product-card {
   width: 336px;
   display: flex;
+  position: relative;
   flex-direction: column;
   padding: 9px 12px;
   border: 1px solid var(--secondary);
@@ -84,6 +87,16 @@ export default {
   justify-content: space-between;
   &:hover {
     transform: scale(1.05);
+  }
+  &__discount {
+    position: absolute;
+    padding: 3px 16px;
+    background: var(--attention);
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+    left: 0;
   }
   &__price-handlers {
     display: flex;

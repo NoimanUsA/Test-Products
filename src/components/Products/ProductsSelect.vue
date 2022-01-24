@@ -125,7 +125,7 @@ export default {
     position: absolute;
     list-style: none;
     left: 0;
-    top: 70px;
+    top: 67px;
     width: 100%;
     z-index: 1000;
   }
@@ -139,7 +139,7 @@ export default {
   }
 }
 
-.select--active {
+.products-select--active {
   .products-select__icon {
     transform: rotate(180deg);
   }

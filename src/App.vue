@@ -15,6 +15,7 @@ export default {
   --grey-4: #b3b3b3;
   --secondary: #f2f2f2;
   --old-price: #888888;
+  --attention: #eb5757;
 }
 
 * {
